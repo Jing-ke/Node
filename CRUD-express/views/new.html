@@ -1,0 +1,43 @@
+<!DOCTYPE html
+    PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="description" content="人力资源管理平台" />
+    <title>人力资源管理平台</title>
+    <link type="text/css" rel="stylesheet" href="../public/css/css.css" />
+    <link rel="stylesheet" href="../node_modules/bootstrap/dist/css/bootstrap.min.css">
+</head>
+
+<body>
+
+    <!-- 套用模板 -->
+    <form action="/students/new" method="post">
+        <div class="form-group">
+            <label >姓名</label>
+            <input type="text" class="form-control" name="name">
+        </div>
+        <div class="form-group">
+            <label >性别</label>
+            <label for="" class="radio-inline">
+                <input type="radio"  name="gender" value="0">男
+            </label>
+            <label for="" class="radio-inline">
+                <input type="radio"  name="gender"  value="1">女
+            </label>
+        </div>
+        <div class="form-group">
+            <label for="exampleInputFile">年龄</label>
+            <input type="number" class="form-control"  name="age">
+        </div>
+        <div class="checkbox">
+            <label>爱好</label>
+            <input type="text" class="form-control" name="hobbies"> 
+        </div>
+        <button type="submit"  class="btn btn-default">Submit</button>
+    </form>
+
+</body>
+
+</html>

@@ -1,0 +1,60 @@
+{
+    "students": [
+        {
+            "id": 1,
+            "name": "张三",
+            "gender": 0,
+            "age": 18,
+            "hobbies": "唱,跳"
+        },
+        {
+            "id": 2,
+            "name": "张三",
+            "gender": 0,
+            "age": 18,
+            "hobbies": "唱,跳"
+        },
+        {
+            "id": 3,
+            "name": "张三",
+            "gender": 0,
+            "age": 18,
+            "hobbies": "唱,跳"
+        },
+        {
+            "id": 4,
+            "name": "张三",
+            "gender": 0,
+            "age": 18,
+            "hobbies": "唱,跳"
+        },
+        {
+            "id": 5,
+            "name": "张三",
+            "gender": 0,
+            "age": 18,
+            "hobbies": "唱,跳"
+        },
+        {
+            "name": "张三",
+            "gender": "1",
+            "age": "26",
+            "hobbies": "唱",
+            "id": 6
+        },
+        {
+            "name": "张三",
+            "gender": "1",
+            "age": "26",
+            "hobbies": "唱",
+            "id": 7
+        },
+        {
+            "name": "李四",
+            "gender": "0",
+            "age": "15",
+            "hobbies": "跳",
+            "id": 8
+        }
+    ]
+}
